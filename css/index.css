@@ -1,0 +1,83 @@
+.heading{
+    font-size:"20px";
+    color: black;
+    text-align: left;
+}
+.padd{
+    padding:20px;
+    height:80vh;
+    width:90vw;
+}
+.img-logo{
+    height:50px;
+    width:48px;
+}
+.flex-containerc {
+    display: flex;
+    flex-direction: column; /* Arrange flex items in a column */
+}
+.flex-containerr {
+    display: flex;
+    flex-direction: row;
+  }
+  .head2{
+    font-size:20px;
+    padding:20px;
+    font-family:Courier;
+    color:black;
+  }
+  .button {
+    border: none;
+    top:128px;
+    color: white;
+    background-color: #008CBA;
+    position: absolute; 
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:4px;
+  }
+  .headl2{
+    font-size:20px;
+    padding:20px;
+    font-family:Courier;
+  }
+  .back{
+    background-image:url("https://wallpaper.dog/large/10702848.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .back2{
+    background-image: url("https://performancein.com/assets/uploads/img/news/2018/01/crop/Untitled_design_17896x504.jpg.jpg");
+    height:56vh;
+    width:58vw;
+    border-radius:10px;
+    opacity:0.9;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 50%;
+}
+.size{
+    width:100px;
+    height:100px;
+    border-radius: 5px;
+}
+.left{
+    left:50px;
+    position: fixed;
+    right: 0;
+}
+.right{
+    right:100px;
+    left:0;
+    position:relative;
+
+}
